@@ -29,7 +29,17 @@ const Hero = () => {
             </button>
           </div>
         </div>
+        {/* IMAGE */}
+        <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img
+            className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+            src="./imgs/hero-bg.png"
+            alt=""
+          />
+        </div>
       </div>
+      {/* ROUNDED RECTANGLE */}
+      <div className="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg: -bottom-28 lg: -right-36"></div>
     </section>
   );
 };
