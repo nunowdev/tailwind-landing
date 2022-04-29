@@ -18,8 +18,8 @@ const Header = () => {
             Login
           </button>
         </ul>
-        <div class="flex sm:hidden flex-1 justify-end">
-          <i class="text-2xl fas fa-bars"></i>
+        <div className="flex sm:hidden flex-1 justify-end">
+          <i className="text-2xl fas fa-bars"></i>
         </div>
       </nav>
     </header>
